@@ -1,6 +1,7 @@
 import React from 'react'
 
 import Header from './components/Header'
+import About from './components/About'
 require('./style.css')
 
 class App extends React.Component {
@@ -8,7 +9,7 @@ class App extends React.Component {
     return(
       <div className="app">
         <Header />
-        <h1>Hi</h1>
+        <About />
       </div>
     )
   }
