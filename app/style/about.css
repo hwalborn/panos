@@ -6,3 +6,7 @@
 .container {
   position: absolute;
 }
+
+.about-row {
+  height: 500px;
+}
