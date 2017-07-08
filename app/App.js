@@ -1,4 +1,5 @@
 import React from 'react'
+import { Grid } from 'react-bootstrap'
 
 import Header from './components/Header'
 import About from './components/About'
@@ -8,8 +9,10 @@ class App extends React.Component {
   render() {
     return(
       <div className="app">
-        <Header />
-        <About />
+        <Grid>
+          <Header />
+          <About />
+        </Grid>
       </div>
     )
   }
