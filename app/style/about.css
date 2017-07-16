@@ -1,12 +1,9 @@
-.about {
-  background-color: white;
-  position: absolute;
-}
-
-.container {
-  position: absolute;
-}
-
 .about-row {
-  height: 500px;
+  margin-top: 50vh;
+}
+
+#image {
+  width: 75%;
+  height: 75%;
+  border-radius: 5px;
 }
